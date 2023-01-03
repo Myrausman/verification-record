@@ -1,69 +1,69 @@
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering LB
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering LH
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering LW
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering LBU
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering LHU
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering SB
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering SH
-2023-01-02 22:54:51,696 riscv_instr.py 119 INFO Registering SW
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering SLL
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering SLLI
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering SRL
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering SRLI
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering SRA
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering SRAI
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering ADD
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering ADDI
-2023-01-02 22:54:51,697 riscv_instr.py 119 INFO Registering NOP
-2023-01-02 22:54:51,698 riscv_instr.py 119 INFO Registering SUB
-2023-01-02 22:54:51,699 riscv_instr.py 119 INFO Registering LUI
-2023-01-02 22:54:51,699 riscv_instr.py 119 INFO Registering AUIPC
-2023-01-02 22:54:51,699 riscv_instr.py 119 INFO Registering XOR
-2023-01-02 22:54:51,699 riscv_instr.py 119 INFO Registering XORI
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering OR
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering ORI
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering AND
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering ANDI
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering SLT
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering SLTI
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering SLTU
-2023-01-02 22:54:51,700 riscv_instr.py 119 INFO Registering SLTIU
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering BEQ
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering BNE
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering BLT
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering BGE
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering BLTU
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering BGEU
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering JAL
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering JALR
-2023-01-02 22:54:51,701 riscv_instr.py 119 INFO Registering FENCE
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering FENCE_I
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering SFENCE_VMA
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering ECALL
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering EBREAK
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering URET
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering SRET
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering MRET
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering DRET
-2023-01-02 22:54:51,702 riscv_instr.py 119 INFO Registering WFI
-2023-01-02 22:54:51,703 riscv_instr.py 119 INFO Registering CSRRW
-2023-01-02 22:54:51,703 riscv_instr.py 119 INFO Registering CSRRS
-2023-01-02 22:54:51,703 riscv_instr.py 119 INFO Registering CSRRC
-2023-01-02 22:54:51,703 riscv_instr.py 119 INFO Registering CSRRWI
-2023-01-02 22:54:51,703 riscv_instr.py 119 INFO Registering CSRRSI
-2023-01-02 22:54:51,703 riscv_instr.py 119 INFO Registering CSRRCI
-2023-01-02 22:54:55,014 riscv_instr_gen_config.py 475 INFO min_stack_len_per_program value = 8
-2023-01-02 22:54:55,016 riscv_instr_base_test.py 78 INFO riscv_instr_gen_config is randomized
-2023-01-02 22:54:55,073 riscv_utils.py 70 INFO 
+2023-01-03 17:30:15,119 riscv_instr.py 119 INFO Registering LB
+2023-01-03 17:30:15,119 riscv_instr.py 119 INFO Registering LH
+2023-01-03 17:30:15,119 riscv_instr.py 119 INFO Registering LW
+2023-01-03 17:30:15,119 riscv_instr.py 119 INFO Registering LBU
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering LHU
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SB
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SH
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SW
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SLL
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SLLI
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SRL
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SRLI
+2023-01-03 17:30:15,120 riscv_instr.py 119 INFO Registering SRA
+2023-01-03 17:30:15,121 riscv_instr.py 119 INFO Registering SRAI
+2023-01-03 17:30:15,121 riscv_instr.py 119 INFO Registering ADD
+2023-01-03 17:30:15,121 riscv_instr.py 119 INFO Registering ADDI
+2023-01-03 17:30:15,121 riscv_instr.py 119 INFO Registering NOP
+2023-01-03 17:30:15,121 riscv_instr.py 119 INFO Registering SUB
+2023-01-03 17:30:15,122 riscv_instr.py 119 INFO Registering LUI
+2023-01-03 17:30:15,122 riscv_instr.py 119 INFO Registering AUIPC
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering XOR
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering XORI
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering OR
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering ORI
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering AND
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering ANDI
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering SLT
+2023-01-03 17:30:15,123 riscv_instr.py 119 INFO Registering SLTI
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering SLTU
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering SLTIU
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering BEQ
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering BNE
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering BLT
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering BGE
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering BLTU
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering BGEU
+2023-01-03 17:30:15,124 riscv_instr.py 119 INFO Registering JAL
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering JALR
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering FENCE
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering FENCE_I
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering SFENCE_VMA
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering ECALL
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering EBREAK
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering URET
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering SRET
+2023-01-03 17:30:15,125 riscv_instr.py 119 INFO Registering MRET
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering DRET
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering WFI
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering CSRRW
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering CSRRS
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering CSRRC
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering CSRRWI
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering CSRRSI
+2023-01-03 17:30:15,126 riscv_instr.py 119 INFO Registering CSRRCI
+2023-01-03 17:30:18,374 riscv_instr_gen_config.py 475 INFO min_stack_len_per_program value = 8
+2023-01-03 17:30:18,376 riscv_instr_base_test.py 78 INFO riscv_instr_gen_config is randomized
+2023-01-03 17:30:18,392 riscv_utils.py 70 INFO 
 +-----+---------------------------------+---------------+--------+---------------------------------------------------------------------------+
 |     | Name                            | Type          |   Size | Value                                                                     |
 |-----+---------------------------------+---------------+--------+---------------------------------------------------------------------------|
 |   0 | tname                           | <class 'str'> |     54 | riscv_instr_gen_config                                                    |
-|   1 | main_program_instr_cnt          | <class 'str'> |     71 | 90                                                                        |
+|   1 | main_program_instr_cnt          | <class 'str'> |     71 | 36                                                                        |
 |   2 | sub_program_instr_cnt           | <class 'str'> |     70 | []                                                                        |
 |   3 | debug_program_instr_cnt         | <class 'str'> |     72 | 0                                                                         |
 |   4 | debug_sub_program_instr_cnt     | <class 'str'> |     76 | []                                                                        |
-|   5 | data_page_pattern               | <class 'str'> |     66 | data_pattern_t.INCR_VAL                                                   |
+|   5 | data_page_pattern               | <class 'str'> |     66 | data_pattern_t.RAND_DATA                                                  |
 |   6 | vreg_init_method                | <class 'str'> |     65 | vreg_init_method_t.RANDOM_VALUES_VMV                                      |
 |   7 | max_directed_instr_stream_seq   | <class 'str'> |     78 | 20                                                                        |
 |   8 | m_mode_exception_delegation     | <class 'str'> |     76 | {}                                                                        |
@@ -71,28 +71,28 @@
 |  10 | m_mode_interrupt_delegation     | <class 'str'> |     76 | {}                                                                        |
 |  11 | s_mode_interrupt_delegation     | <class 'str'> |     76 | {}                                                                        |
 |  12 | init_privileged_mode            | <class 'str'> |     69 | privileged_mode_t.MACHINE_MODE                                            |
-|  13 | mstatus                         | <class 'str'> |     56 | 789618487                                                                 |
-|  14 | mie                             | <class 'str'> |     52 | 874403518                                                                 |
-|  15 | sstatus                         | <class 'str'> |     56 | 1609984000                                                                |
-|  16 | sie                             | <class 'str'> |     52 | 450076922                                                                 |
-|  17 | ustatus                         | <class 'str'> |     56 | 634259545                                                                 |
-|  18 | uie                             | <class 'str'> |     52 | 577839864                                                                 |
+|  13 | mstatus                         | <class 'str'> |     56 | 377662819                                                                 |
+|  14 | mie                             | <class 'str'> |     52 | 352725091                                                                 |
+|  15 | sstatus                         | <class 'str'> |     56 | 1203875147                                                                |
+|  16 | sie                             | <class 'str'> |     52 | 832686099                                                                 |
+|  17 | ustatus                         | <class 'str'> |     56 | 1364851624                                                                |
+|  18 | uie                             | <class 'str'> |     52 | 1200877259                                                                |
 |  19 | mstatus_mprv                    | <class 'str'> |     61 | 0                                                                         |
 |  20 | mstatus_mxr                     | <class 'str'> |     60 | 0                                                                         |
 |  21 | mstatus_sum                     | <class 'str'> |     60 | 0                                                                         |
 |  22 | mstatus_tvm                     | <class 'str'> |     60 | 0                                                                         |
 |  23 | mstatus_fs                      | <class 'str'> |     59 | 0                                                                         |
-|  24 | mstatus_vs                      | <class 'str'> |     59 | 0                                                                         |
-|  25 | mtvec_mode                      | <class 'str'> |     59 | mtvec_mode_t.DIRECT                                                       |
-|  26 | tvec_alignment                  | <class 'str'> |     63 | 2                                                                         |
-|  27 | fcsr_rm                         | <class 'str'> |     56 | f_rounding_mode_t.RMM                                                     |
+|  24 | mstatus_vs                      | <class 'str'> |     59 | 3                                                                         |
+|  25 | mtvec_mode                      | <class 'str'> |     59 | mtvec_mode_t.VECTORED                                                     |
+|  26 | tvec_alignment                  | <class 'str'> |     63 | 4                                                                         |
+|  27 | fcsr_rm                         | <class 'str'> |     56 | f_rounding_mode_t.RTZ                                                     |
 |  28 | enable_sfence                   | <class 'str'> |     62 | 1                                                                         |
-|  29 | gpr                             | <class 'str'> |     52 | [riscv_reg_t.S11, riscv_reg_t.T1, riscv_reg_t.A4, riscv_reg_t.T3]         |
+|  29 | gpr                             | <class 'str'> |     52 | [riscv_reg_t.T0, riscv_reg_t.S9, riscv_reg_t.A5, riscv_reg_t.T4]          |
 |  30 | scratch_reg                     | <class 'str'> |     60 | riscv_reg_t.T6                                                            |
-|  31 | pmp_reg                         | <class 'str'> |     56 | riscv_reg_t.T6                                                            |
-|  32 | sp                              | <class 'str'> |     51 | riscv_reg_t.S10                                                           |
+|  31 | pmp_reg                         | <class 'str'> |     56 | riscv_reg_t.T5                                                            |
+|  32 | sp                              | <class 'str'> |     51 | riscv_reg_t.S11                                                           |
 |  33 | tp                              | <class 'str'> |     51 | riscv_reg_t.T5                                                            |
-|  34 | ra                              | <class 'str'> |     51 | riscv_reg_t.T2                                                            |
+|  34 | ra                              | <class 'str'> |     51 | riscv_reg_t.S7                                                            |
 |  35 | check_misa_init_val             | <class 'str'> |     68 | 0                                                                         |
 |  36 | check_xstatus                   | <class 'str'> |     62 | 1                                                                         |
 |  37 | virtual_addr_translation_on     | <class 'str'> |     76 | 0                                                                         |
@@ -143,13 +143,13 @@
 |  82 | set_dcsr_ebreak                 | <class 'str'> |     64 | 0                                                                         |
 |  83 | num_debug_sub_program           | <class 'str'> |     70 | 0                                                                         |
 |  84 | enable_debug_single_step        | <class 'str'> |     73 | 0                                                                         |
-|  85 | single_step_iterations          | <class 'str'> |     71 | 1238362088                                                                |
+|  85 | single_step_iterations          | <class 'str'> |     71 | 2632305654                                                                |
 |  86 | set_mstatus_tw                  | <class 'str'> |     63 | 0                                                                         |
 |  87 | set_mstatus_mprv                | <class 'str'> |     65 | 0                                                                         |
 |  88 | min_stack_len_per_program       | <class 'str'> |     74 | 8                                                                         |
 |  89 | max_stack_len_per_program       | <class 'str'> |     74 | 64                                                                        |
 |  90 | max_branch_step                 | <class 'str'> |     64 | 20                                                                        |
-|  91 | reserved_regs                   | <class 'str'> |     62 | [riscv_reg_t.T5, riscv_reg_t.S10, riscv_reg_t.T6]                         |
+|  91 | reserved_regs                   | <class 'str'> |     62 | [riscv_reg_t.T5, riscv_reg_t.S11, riscv_reg_t.T6]                         |
 |  92 | enable_floating_point           | <class 'str'> |     70 | 0                                                                         |
 |  93 | enable_vector_extension         | <class 'str'> |     72 | 0                                                                         |
 |  94 | vector_instr_only               | <class 'str'> |     66 | 0                                                                         |
@@ -164,21 +164,21 @@
 | 103 | init_privil_mode                | <class 'str'> |     65 | privileged_mode_t.MACHINE_MODE                                            |
 | 104 | tvec_ceil                       | <class 'str'> |     58 | 4                                                                         |
 +-----+---------------------------------+---------------+--------+---------------------------------------------------------------------------+
-2023-01-02 22:54:55,418 riscv_asm_program_gen.py 1127 INFO Adding directed instruction stream:riscv_int_numeric_corner_stream ratio:4/1000
-2023-01-02 22:54:55,419 riscv_instr_base_test.py 70 INFO All directed instruction is applied
-2023-01-02 22:54:55,421 riscv_asm_program_gen.py 611 INFO Generating privileged mode routing for MACHINE_MODE
-2023-01-02 22:54:55,470 riscv_privileged_common_seq.py 139 INFO self.mstatus_val: 0x1800
-2023-01-02 22:54:55,689 riscv_asm_program_gen.py 1161 INFO Insert directed instr stream riscv_int_numeric_corner_stream 1/90 times
-2023-01-02 22:54:56,496 riscv_instr_sequence.py 75 INFO Start generating 90 instruction
-2023-01-02 22:54:59,403 riscv_instr_sequence.py 85 INFO Finishing instruction generation
-2023-01-02 22:54:59,403 riscv_asm_program_gen.py 248 INFO Randomizing call stack..done
-2023-01-02 22:54:59,407 riscv_instr_sequence.py 201 INFO Finished post-processing instructions
-2023-01-02 22:54:59,407 riscv_asm_program_gen.py 117 INFO Post-processing main program...done
-2023-01-02 22:54:59,419 riscv_instr_sequence.py 291 INFO Injecting 0 illegal instructions, ratio 0/100
-2023-01-02 22:54:59,419 riscv_instr_sequence.py 303 INFO Injecting 0 HINT instructions, ratio 0/100
-2023-01-02 22:54:59,419 riscv_asm_program_gen.py 119 INFO Generating main program instruction stream...done
-2023-01-02 22:54:59,419 riscv_asm_program_gen.py 134 INFO Main/sub program generation...done
-2023-01-02 22:54:59,421 riscv_asm_program_gen.py 1063 INFO /home/musman/verification-record/arithmetic1/asm_test/riscv_arithmetic_basic_test_0.S is generated
-2023-01-02 22:54:59,421 riscv_instr_base_test.py 73 INFO TEST GENERATED USING SEED VALUE = 242686648
-2023-01-02 22:54:59,421 riscv_instr_base_test.py 74 INFO TEST GENERATION DONE
-2023-01-02 22:54:59,442 riscv_instr_base_test.py 90 INFO Total execution time: 5s
+2023-01-03 17:30:18,737 riscv_asm_program_gen.py 1127 INFO Adding directed instruction stream:riscv_int_numeric_corner_stream ratio:4/1000
+2023-01-03 17:30:18,738 riscv_instr_base_test.py 70 INFO All directed instruction is applied
+2023-01-03 17:30:18,739 riscv_asm_program_gen.py 611 INFO Generating privileged mode routing for MACHINE_MODE
+2023-01-03 17:30:18,791 riscv_privileged_common_seq.py 139 INFO self.mstatus_val: 0x1e00
+2023-01-03 17:30:19,011 riscv_asm_program_gen.py 1161 INFO Insert directed instr stream riscv_int_numeric_corner_stream 1/36 times
+2023-01-03 17:30:20,008 riscv_instr_sequence.py 75 INFO Start generating 36 instruction
+2023-01-03 17:30:21,205 riscv_instr_sequence.py 85 INFO Finishing instruction generation
+2023-01-03 17:30:21,205 riscv_asm_program_gen.py 248 INFO Randomizing call stack..done
+2023-01-03 17:30:21,206 riscv_instr_sequence.py 201 INFO Finished post-processing instructions
+2023-01-03 17:30:21,207 riscv_asm_program_gen.py 117 INFO Post-processing main program...done
+2023-01-03 17:30:21,213 riscv_instr_sequence.py 291 INFO Injecting 0 illegal instructions, ratio 0/100
+2023-01-03 17:30:21,213 riscv_instr_sequence.py 303 INFO Injecting 0 HINT instructions, ratio 0/100
+2023-01-03 17:30:21,213 riscv_asm_program_gen.py 119 INFO Generating main program instruction stream...done
+2023-01-03 17:30:21,213 riscv_asm_program_gen.py 134 INFO Main/sub program generation...done
+2023-01-03 17:30:21,219 riscv_asm_program_gen.py 1063 INFO /home/musman/verification-record/arithmetic3/asm_test/riscv_arithmetic_basic_test_0.S is generated
+2023-01-03 17:30:21,219 riscv_instr_base_test.py 73 INFO TEST GENERATED USING SEED VALUE = 1753897874
+2023-01-03 17:30:21,219 riscv_instr_base_test.py 74 INFO TEST GENERATION DONE
+2023-01-03 17:30:21,227 riscv_instr_base_test.py 90 INFO Total execution time: 3s
