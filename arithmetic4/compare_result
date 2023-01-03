@@ -1,0 +1,155 @@
+nucleusrv : /home/musman/verification-record/arithmetic4/nrv.csv
+iss : /home/musman/verification-record/arithmetic4/iss.csv
+Mismatch[1]:
+nucleusrv[7] : pc[80000030] addi    t3, t3, -876: t3:80000cc0 
+iss[7] : pc[8000002c] auipc   t3, 0x1: t3:8000102c 
+Mismatch[2]:
+nucleusrv[8] : pc[80000034] ori     t3, t3, 1: t3:80000cc1 
+iss[8] : pc[80000030] addi    t3, t3, -876: t3:80000cc0 
+Mismatch[3]:
+nucleusrv[9] : pc[8000003c] auipc   t3, 0x0: t3:8000003c 
+iss[9] : pc[80000034] ori     t3, t3, 1: t3:80000cc1 
+Mismatch[4]:
+nucleusrv[10] : pc[80000040] addi    t3, t3, 36: t3:80000060 
+iss[10] : pc[8000003c] auipc   t3, 0x0: t3:8000003c 
+Mismatch[5]:
+nucleusrv[11] : pc[8000004c] addi    t3, t3, -512: t3:00001e00 
+iss[11] : pc[80000040] addi    t3, t3, 36: t3:80000060 
+Mismatch[6]:
+nucleusrv[12] : pc[8000006c] lui     sp, 0x80000: sp:80000000 
+iss[12] : pc[80000048] lui     t3, 0x2: t3:00002000 
+Mismatch[7]:
+nucleusrv[13] : pc[80000074] lui     tp, 0xfe0ca: tp:fe0ca000 
+iss[13] : pc[8000004c] addi    t3, t3, -512: t3:00001e00 
+Mismatch[8]:
+nucleusrv[14] : pc[8000007c] lui     t0, 0xf7cfb: t0:f7cfb000 
+iss[14] : pc[80000054] li      t3, 0: t3:00000000 
+Mismatch[9]:
+nucleusrv[16] : pc[80000084] lui     t1, 0x7b0f3: t1:7b0f3000 
+iss[16] : pc[8000006c] lui     sp, 0x80000: sp:80000000 
+Mismatch[10]:
+nucleusrv[17] : pc[8000008c] lui     t2, 0x80000: t2:80000000 
+iss[17] : pc[80000070] li      gp, 5: gp:00000005 
+Mismatch[11]:
+nucleusrv[18] : pc[80000094] addi    s0, s0, -1287: s0:da468af9 
+iss[18] : pc[80000074] lui     tp, 0xfe0ca: tp:fe0ca000 
+Mismatch[12]:
+nucleusrv[19] : pc[8000009c] lui     a0, 0xf6956: a0:f6956000 
+iss[19] : pc[80000078] addi    tp, tp, -1871: tp:fe0c98b1 
+Mismatch[13]:
+nucleusrv[20] : pc[800000a4] lui     a1, 0x80000: a1:80000000 
+iss[20] : pc[8000007c] lui     t0, 0xf7cfb: t0:f7cfb000 
+Mismatch[14]:
+nucleusrv[21] : pc[800000a8] lui     a2, 0xca41c: a2:ca41c000 
+iss[21] : pc[80000080] addi    t0, t0, 1613: t0:f7cfb64d 
+Mismatch[15]:
+nucleusrv[22] : pc[800000ac] addi    a2, a2, 1423: a2:ca41c58f 
+iss[22] : pc[80000084] lui     t1, 0x7b0f3: t1:7b0f3000 
+Mismatch[16]:
+nucleusrv[23] : pc[800000c8] addi    a7, a7, 406: a7:a74c5196 
+iss[23] : pc[80000088] addi    t1, t1, 1878: t1:7b0f3756 
+Mismatch[17]:
+nucleusrv[24] : pc[800000cc] lui     s2, 0x4920e: s2:4920e000 
+iss[24] : pc[8000008c] lui     t2, 0x80000: t2:80000000 
+Mismatch[18]:
+nucleusrv[25] : pc[800000d4] lui     s3, 0xffc23: s3:ffc23000 
+iss[25] : pc[80000090] lui     s0, 0xda469: s0:da469000 
+Mismatch[19]:
+nucleusrv[26] : pc[800000dc] lui     s4, 0xfb0a5: s4:fb0a5000 
+iss[26] : pc[80000094] addi    s0, s0, -1287: s0:da468af9 
+Mismatch[20]:
+nucleusrv[28] : pc[800000e0] addi    s4, s4, -1666: s4:fb0a497e 
+iss[28] : pc[8000009c] lui     a0, 0xf6956: a0:f6956000 
+Mismatch[21]:
+nucleusrv[29] : pc[800000e8] addi    s5, s5, 1056: s5:f9a81420 
+iss[29] : pc[800000a0] addi    a0, a0, 1828: a0:f6956724 
+Mismatch[22]:
+nucleusrv[30] : pc[800000f0] addi    s6, s6, -219: s6:7c818f25 
+iss[30] : pc[800000a4] lui     a1, 0x80000: a1:80000000 
+Mismatch[23]:
+nucleusrv[31] : pc[800000f8] li      s8, 4: s8:00000004 
+iss[31] : pc[800000a8] lui     a2, 0xca41c: a2:ca41c000 
+Mismatch[24]:
+nucleusrv[32] : pc[80000100] lui     s10, 0x25954: s10:25954000 
+iss[32] : pc[800000ac] addi    a2, a2, 1423: a2:ca41c58f 
+Mismatch[25]:
+nucleusrv[33] : pc[80000104] addi    s10, s10, 226: s10:259540e2 
+iss[33] : pc[800000b0] lui     a3, 0xc7f1b: a3:c7f1b000 
+Mismatch[26]:
+nucleusrv[34] : pc[80000108] lui     t3, 0x7726a: t3:7726a000 
+iss[34] : pc[800000b4] addi    a3, a3, 1932: a3:c7f1b78c 
+Mismatch[27]:
+nucleusrv[35] : pc[8000010c] addi    t3, t3, 397: t3:7726a18d 
+iss[35] : pc[800000b8] li      a4, 11: a4:0000000b 
+Mismatch[28]:
+nucleusrv[37] : pc[80000110] li      t4, 8: t4:00000008 
+iss[37] : pc[800000c0] lui     a6, 0x80000: a6:80000000 
+Mismatch[29]:
+nucleusrv[38] : pc[80000118] addi    t6, t6, 996: t6:fdfbb3e4 
+iss[38] : pc[800000c4] lui     a7, 0xa74c5: a7:a74c5000 
+Mismatch[30]:
+nucleusrv[39] : pc[8000011c] auipc   s11, 0x6: s11:8000611c 
+iss[39] : pc[800000c8] addi    a7, a7, 406: a7:a74c5196 
+Mismatch[31]:
+nucleusrv[40] : pc[80000120] addi    s11, s11, -696: s11:80005e64 
+iss[40] : pc[800000cc] lui     s2, 0x4920e: s2:4920e000 
+Mismatch[32]:
+nucleusrv[41] : pc[80000128] sra     s8, s2, s2: s8:00000009 
+iss[41] : pc[800000d0] addi    s2, s2, 603: s2:4920e25b 
+Mismatch[33]:
+nucleusrv[42] : pc[80000138] slt     s5, t1, t6: s5:00000000 
+iss[42] : pc[800000d4] lui     s3, 0xffc23: s3:ffc23000 
+Mismatch[34]:
+nucleusrv[43] : pc[80000140] xori    a5, s10, -1254: a5:da6abbf8 
+iss[43] : pc[800000d8] addi    s3, s3, -1482: s3:ffc22a36 
+Mismatch[35]:
+nucleusrv[44] : pc[80000144] sltiu   s3, t5, -1700: s3:00000001 
+iss[44] : pc[800000dc] lui     s4, 0xfb0a5: s4:fb0a5000 
+Mismatch[36]:
+nucleusrv[45] : pc[8000014c] li      tp, 1: tp:00000001 
+iss[45] : pc[800000e0] addi    s4, s4, -1666: s4:fb0a497e 
+Mismatch[37]:
+nucleusrv[46] : pc[80000154] addi    t4, t4, 734: t4:701c82de 
+iss[46] : pc[800000e4] lui     s5, 0xf9a81: s5:f9a81000 
+Mismatch[38]:
+nucleusrv[47] : pc[80000158] lui     t3, 0x21c66: t3:21c66000 
+iss[47] : pc[800000e8] addi    s5, s5, 1056: s5:f9a81420 
+Mismatch[39]:
+nucleusrv[48] : pc[8000015c] addi    t3, t3, 1382: t3:21c66566 
+iss[48] : pc[800000ec] lui     s6, 0x7c819: s6:7c819000 
+Mismatch[40]:
+nucleusrv[49] : pc[80000160] li      s10, 0: s10:00000000 
+iss[49] : pc[800000f0] addi    s6, s6, -219: s6:7c818f25 
+Mismatch[41]:
+nucleusrv[50] : pc[80000170] li      s1, 1: s1:00000001 
+iss[50] : pc[800000f4] li      s7, 11: s7:0000000b 
+Mismatch[42]:
+nucleusrv[51] : pc[80000178] li      a7, 1: a7:00000001 
+iss[51] : pc[800000f8] li      s8, 4: s8:00000004 
+Mismatch[43]:
+nucleusrv[53] : pc[80000184] addi    a1, gp, 1341: a1:00000542 
+iss[53] : pc[80000100] lui     s10, 0x25954: s10:25954000 
+Mismatch[44]:
+nucleusrv[54] : pc[80000194] lui     s9, 0x38673: s9:38673000 
+iss[54] : pc[80000104] addi    s10, s10, 226: s10:259540e2 
+Mismatch[45]:
+nucleusrv[55] : pc[8000019c] sub     s6, t1, a6: s6:00000001 
+iss[55] : pc[80000108] lui     t3, 0x7726a: t3:7726a000 
+Mismatch[46]:
+nucleusrv[56] : pc[800001a0] add     s5, a4, a2: s5:ca41c59a 
+iss[56] : pc[8000010c] addi    t3, t3, 397: t3:7726a18d 
+Mismatch[47]:
+nucleusrv[57] : pc[800001a4] addi    s0, s3, -1832: s0:fffff8d9 
+iss[57] : pc[80000110] li      t4, 8: t4:00000008 
+Mismatch[48]:
+nucleusrv[58] : pc[800001ac] sub     s0, t4, s5: s0:a5dabd44 
+iss[58] : pc[80000114] lui     t6, 0xfdfbb: t6:fdfbb000 
+Mismatch[49]:
+nucleusrv[59] : pc[800001b4] add     s5, gp, t2: s5:80000005 
+iss[59] : pc[80000118] addi    t6, t6, 996: t6:fdfbb3e4 
+Mismatch[50]:
+nucleusrv[60] : pc[800001c4] addi    s0, t3, 1023: s0:21c66965 
+iss[60] : pc[8000011c] auipc   s11, 0x6: s11:8000611c 
+59 instructions left in trace iss
+[FAILED]: 6 matched, 152 mismatch
+
